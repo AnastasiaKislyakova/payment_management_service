@@ -1,0 +1,4 @@
+rootProject.name = 'payment'
+include 'payment_api'
+include 'payment_app'
+
