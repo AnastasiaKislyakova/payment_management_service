@@ -20,6 +20,8 @@ jar {
 
 dependencies {
     compile project(":payment_api")
+    compile "com.asasan.ordermanagement:ordermanagement-api:${orderManagementApiVersion}"
+    compile "com.asasan.ordermanagement:ordermanagement-queue:${orderManagementQueueVersion}"
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.1.3.RELEASE'
     compile 'javax.validation:validation-api:2.0.0.Final'
